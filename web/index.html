@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>Стартова сторінка</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+           <div>
+    <h5>Увійти</h5>
+    <form action="EnterController" method="POST">
+      <label for="login">Логін</label>
+      <input type="text" placeholder="Введіть логін" name="login" id="login" required>
+      <label for="password">Пароль</label> 
+      <input type="password" placeholder="Введіть пароль" name="password" id="password" required>
+            <input type="submit" name="enter" class="btn" value="Увійти як адміністратор" id="enter">
+    </form>
+    <br>
+	    <form action="EnterController" method="POST">
+   		<input type="submit" name="enter" class="btn" value="Увійти як гість" id="enter">
+</form>
+  </div>
+    </body>
+</html>
